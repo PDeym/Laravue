@@ -26,7 +26,7 @@
         <div class="container">
       
             <!-- Portfolio Section Heading -->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">JOB POSTING (VUE CRUD)</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">PA JOB VACANCIES (VUE CRUD)</h2>
               <br/>
             <job-posting-component :posting="{{$posting}}"/>
     

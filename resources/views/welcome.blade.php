@@ -28,7 +28,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
       <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">Job Listing</a>
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">PA Job Posting</a>
           <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               Menu
               <i class="fas fa-bars"></i>
@@ -37,6 +37,9 @@
               <ul class="navbar-nav ml-auto">
               <li class="nav-item mx-0 mx-lg-1">
                   <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{url('job_postings/')}}">Job Postings</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Vacancies</a>
               </li>
               <li class="nav-item mx-0 mx-lg-1">
                   <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
@@ -71,7 +74,7 @@
           </div>
 
           <!-- Masthead Subheading -->
-          <p class="masthead-subheading font-weight-light mb-0">Job Listings - Freelance Job - Job Description </p>
+          <p class="masthead-subheading font-weight-light mb-0">Philippine Army - Job Postings - Job Vacancies </p>
 
       </div>
     </header>
@@ -83,7 +86,7 @@
       <div class="container">
 
         <!-- Portfolio Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Job Listing</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Job Vacancies</h2>
 
         <!-- Icon Divider -->
         <div class="divider-custom">
@@ -194,10 +197,12 @@
         <!-- About Section Content -->
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            <h4>Army Vision</h4>
+            <p class="lead">By 2028, a world-class Army that is a source of national pride</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            <h4>Army Core Purpose</h4>
+            <p class="lead">Serving the People. Securing the Land.</p>
           </div>
         </div>
 
@@ -217,7 +222,7 @@
       <div class="container">
 
         <!-- Contact Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Reach Us</h2>
 
         <!-- Icon Divider -->
         <div class="divider-custom">
@@ -304,9 +309,9 @@
 
           <!-- Footer About Text -->
           <div class="col-lg-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+            <h4 class="text-uppercase mb-4">PHILIPPINE ARMY</h4>
+            <p class="lead mb-0">Serving the People, Securing the Land
+              <a href="http://army.mil.ph" target="_blank">Philippine Army Website</a></p>
           </div>
 
         </div>
