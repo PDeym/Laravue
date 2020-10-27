@@ -9,7 +9,7 @@
   <meta name="author" content="">
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>Job Listing</title>
+  <title>Job Postings</title>
 
   <!-- Custom fonts for this theme -->
   <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
